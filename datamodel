@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+char sex;
+int name;
+
+printf("Enter sex(m,f):");
+scanf("%c",&sex);
+
+printf("Enter name:");
+scanf("%d",&name);
+
+if(sex =='m' || sex =='F')
+{
+if(age >=18)
+printf("Eligible for marriage");
+}
+return 0;
